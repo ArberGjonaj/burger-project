@@ -1,7 +1,7 @@
 import Aux from "../../../hoc/Auxillary";
 
 const orderSummary = (props) => {
-  const ingredientSummary = Object.keys(props.ingredientSummary).map(
+  const ingredientSummary = Object.keys(props.ingredients).map(
     (igKey) => {
       return (
         <li key={igKey}>
